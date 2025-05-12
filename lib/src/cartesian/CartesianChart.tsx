@@ -117,6 +117,7 @@ type CartesianChartProps<
       }>
     | undefined
   > | null>;
+  
 };
 
 export function CartesianChart<

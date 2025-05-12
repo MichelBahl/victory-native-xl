@@ -80,7 +80,7 @@ export const transformInputData = <
   }>;
 } => {
   const data = [..._data];
-  const { xAxisScale, yAxisScale } = axisScales;
+  const { xAxisScale = 'linear', yAxisScale = 'linear' } = axisScales || {};
 
   // Determine if xKey data is numerical
   const isNumericalData = data.every(
