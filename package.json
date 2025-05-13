@@ -41,5 +41,7 @@
   },
   "engines": {
     "node": ">=18.17"
-  }
+  },
+  "version": "41.17.2",
+  "packageManager": "yarn@4.9.1"
 }
